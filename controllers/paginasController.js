@@ -27,7 +27,6 @@ const paginaInicio = async (req, res) => {
 const paginaNosotros = (req, res) => {
     res.render('nosotros', {
         pagina: 'Nosotros'
-
     });
 
 }
