@@ -14,7 +14,7 @@ router.get('/viajes', paginaViajes);
 router.get('/viajes/:slug', paginadetalleViaje);
 
 router.get('/testimoniales', paginaTestimoniales);
-router.post('/testimoniales', guardarTestimoniales)
+router.post('/testimoniales', guardarTestimoniales);
 
 
 
